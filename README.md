@@ -69,7 +69,7 @@ mvn exec:java -Dexec.mainClass="edu.eci.pdsw.pizzafactory.consoleview.Preparador
 mvn compile
 ```
 
-Nota: Si lo desea, puede revisar una [implementación de referencia del patrón Fábric Abstracta](https://github.com/PDSW-ECI/GoF-AbstractFactory-SampleImplementation.git ).
+Nota: Si lo desea, puede revisar una [implementación de referencia del patrón Fábric Abstracta](https://github.com/PDSW-ECI/GoF-AbstractFactory-SampleImplementation.git ), cuyo modelo corresponde al del siguiente diagrama ![](BasicExample.png)
 
 
 ####Parte II. Refactoring de código ‘real’.
