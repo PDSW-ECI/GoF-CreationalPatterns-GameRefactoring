@@ -115,12 +115,16 @@ Parte I.
 		1. El preparador de pizzas cambia su comportamiento al cambiar la configuración de la fábrica abstracta.
 
 Parte II.
-	Diseño.
+
+	* Diseño.
+
 		1. En la vista del juego no deben existir ninguna referencia a *Player*, *Bullet* o *Renderer* concretos.
 		2. Entre las Las implementaciones concretas de cada abstracción no se debe tener código duplicado (DRY).
-	Implementación.
+	* Implementación.
+
 		1. Las vistas 'vectoriales' están implementadas usando primitivas gráficas geométricas (g.drawLine()/drawOval()/etc).
-	Funcionalidad.
+	* Funcionalidad.
+
 		1. Sólo con cambiar la configuración de la fábrica abstracta, debe cambiar el estilo del juego.
 
 
