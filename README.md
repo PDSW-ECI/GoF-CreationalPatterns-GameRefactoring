@@ -110,11 +110,11 @@ Una vez hecho lo anterior, valide que se da el desacoplamiento: en ninguna parte
 
 #### Criterios de evaluación
 
-Parte I.
-	Funcional. 
+1. Parte I.
+	* Funcional. 
 		1. El preparador de pizzas cambia su comportamiento al cambiar la configuración de la fábrica abstracta.
 
-Parte II.
+2. Parte II.
 
 	* Diseño.
 
