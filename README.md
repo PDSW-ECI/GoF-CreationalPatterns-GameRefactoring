@@ -69,7 +69,7 @@ mvn exec:java -Dexec.mainClass="edu.eci.pdsw.pizzafactory.consoleview.Preparador
 mvn compile
 ```
 
-Nota: Si lo desea, puede revisar una [implementación de referencia del patrón Fábric Abstracta](https://github.com/PDSW-ECI/GoF-AbstractFactory-SampleImplementation.git ), cuyo modelo corresponde al del siguiente diagrama ![](BasicExample.png)
+Nota: Si lo desea, puede revisar una [implementación de referencia del patrón Fábrica Abstracta](https://github.com/PDSW-ECI/GoF-AbstractFactory-SampleImplementation.git ), cuyo modelo corresponde al del siguiente diagrama ![](BasicExample.png)
 
 
 ####Parte II. Refactoring de código ‘real’.
@@ -106,6 +106,23 @@ Una vez hecho lo anterior, valide que se da el desacoplamiento: en ninguna parte
 	* Crear nuevos productos concretos correspondientes a dicho esquema.
 	* Crear su correspondiente fábrica concreta.
 	* Cambiar la configuración de la fábrica abstracta.
+
+
+#### Criterios de evaluación
+
+Parte I.
+	Funcional. 
+		1. El preparador de pizzas cambia su comportamiento al cambiar la configuración de la fábrica abstracta.
+
+Parte II.
+	Diseño.
+		1. En la vista del juego no deben existir ninguna referencia a *Player*, *Bullet* o *Renderer* concretos.
+		2. Entre las Las implementaciones concretas de cada abstracción no se debe tener código duplicado (DRY).
+	Implementación.
+		1. Las vistas 'vectoriales' están implementadas usando primitivas gráficas geométricas (g.drawLine()/drawOval()/etc).
+	Funcionalidad.
+		1. Sólo con cambiar la configuración de la fábrica abstracta, debe cambiar el estilo del juego.
+
 
 
 
