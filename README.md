@@ -1,5 +1,5 @@
-#Escuela Colombiana de Ingeniería
-##Procesos de Desarrollo de Software - PDSW
+# Escuela Colombiana de Ingeniería
+## Procesos de Desarrollo de Software - PDSW
 
 
 
@@ -11,7 +11,7 @@ Entregables:
 * Parte II-1 a II-4, impreso en la próxima clase.
 * Parte II-5 y II-7, antes del próximo laboratorio, vía moodle.
 
-####Parte I. 
+#### Parte I. 
 El siguiente, es un modelo de clases de una aplicación que se comunica con un microcontrolador encargado de la fabricación automática de pizzas. Dichas clases encapsulan la lógica para amasar, hornear y moldear pizzas de las pizzas delgadas.
 
 ![alt text](img/Model.png "Logo Title Text 1")
@@ -72,7 +72,7 @@ mvn compile
 Nota: Si lo desea, puede revisar una [implementación de referencia del patrón Fábrica Abstracta](https://github.com/PDSW-ECI/GoF-AbstractFactory-SampleImplementation.git ), cuyo modelo corresponde al del siguiente diagrama ![](BasicExample.png)
 
 
-####Parte II. Refactoring de código ‘real’.
+#### Parte II. Refactoring de código ‘real’.
 
 Para este ejercicio se hará refactoring a un juego publicado en [GitHUB](https://github.com/ekaputra07/spacewar-2d), y que fue modificado ligeramente para el propósito de este ejercicio. El juego actualmente funciona basado en Sprites, y el reto será aplicar el principio de Inversión de Dependencias, y los Patrones de Diseño Creacionales para lograr que:
 
@@ -85,7 +85,7 @@ En primera instancia, se quiere que la aplicación pueda ser fácilmente configu
 
 Para lograr esto, se sabe que es necesario desacoplar toda la lógica del juego del esquema de visualización del jugador (SpritePlayer), las balas (SpriteBullet) y el fondo del juego (BitmapBackgroundRenderer). Adicionalmente, se espera que para incorporar nuevos estilos visuales en el futuro, baste con cambiar un archivo de configuración (es decir, en el futuro no debe ser necesario modificar el código del juego).
 
-###Actividades.
+### Actividades.
 
 1. Clone el presente proyecto en su equipo de trabajo (comando git clone).
 2. Pruebe su funcionamiento ejecutando la fase de compilación del proyecto Maven (mvn compile), y luego el plugin ‘exec’:
@@ -129,7 +129,7 @@ Una vez hecho lo anterior, valide que se da el desacoplamiento: en ninguna parte
 
 
 
-
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Este contenido hace parte del curso Procesos de Desarrollo de Software del programa de Ingeniería de Sistemas de la Escuela Colombiana de Ingeniería, y está licenciado como <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 
 
